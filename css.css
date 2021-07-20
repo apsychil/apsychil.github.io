@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+
+@media (min-width: 700px) and (orientation: landscape) { 
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #000000;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+ul {
+  display: flex;
+}
+
+.nav li {
+  list-style: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-family: Roboto Slab;
+  font-size: 20px;
+}
+
+.nav-link {
+   text-decoration: none;
+   color: #fff;
+}
+
+.nav a:hover {
+  color: orange;
+}
+
+#welcome-section {
+  height: 100vh;
+  text-align: center;
+  background-image: url("https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+}
+
+h1 {
+  font-family: Playfair Display;
+  font-size: 120px;
+  color: white;
+  margin-top: 100px;
+}
+
+#welcome-section p {
+  color: white;
+  font-family: Calibri Bold;
+  font-size: 40px;
+}
+
+#projects {
+  height: 100vh;
+}
+
+#contact {
+  height: 100vh;
+}
+  
+}
